@@ -12,6 +12,8 @@ java 파일
 - WebConfig.java: CORS 설정
 - UmbrellaController.java: 우산 개수 등록, 수정 Controller
 - UmbrellaService.java: 우산 서비스 클래스
+- UmbrellaBorrowReturnController.java: 우산 대여/반납 Controller
+- UmbrellaBorrowReturnService: 우산 대여/반납 서비스 클래스
 
 resources 파일
 - application.yaml: MongoDB Atlas 정보 설정
