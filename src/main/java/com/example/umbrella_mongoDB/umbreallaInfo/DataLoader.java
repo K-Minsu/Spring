@@ -16,8 +16,8 @@ public class DataLoader implements CommandLineRunner {
         storeRepository.deleteAll();
 
         // 초기 데이터 추가
-        storeRepository.save(new Store("1", "Store A", "123 Main St", 10));
-        storeRepository.save(new Store("2", "Store B", "456 Elm St", 5));
-        storeRepository.save(new Store("3", "Store C", "789 Oak St", 20));
+        storeRepository.save(new Store("1", "Store A", "123 Main St", 100));
+        storeRepository.save(new Store("2", "Store B", "456 Elm St", 500));
+        storeRepository.save(new Store("3", "Store C", "789 Oak St", 200));
     }
 }
