@@ -6,6 +6,7 @@ java 파일
 - DataLoader.java: 초기 데이터 삽입 테스트용 클래스
 - Store.java: MongoDB Document 클래스
 - StoreController.java: REST Controller 클래스
+- StoreDTO.java: DTO 클래스
 - StoreRepository.java: MongoDB와 상호작용하기 위한 레포지토리 클래스
 - StoreService.java: 서비스 클래스
 - WebConfig.java: CORS 설정
