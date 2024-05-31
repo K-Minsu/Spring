@@ -10,6 +10,8 @@ java 파일
 - StoreRepository.java: MongoDB와 상호작용하기 위한 레포지토리 클래스
 - StoreService.java: 서비스 클래스
 - WebConfig.java: CORS 설정
+- UmbrellaController.java: 우산 개수 등록, 수정 Controller
+- UmbrellaService.java: 우산 서비스 클래스
 
 resources 파일
 - application.yaml: MongoDB Atlas 정보 설정
